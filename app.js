@@ -1,6 +1,6 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
 // calling the btn id from the index.html
-const btn = document.getElementById("btn");
+const btn = document.querySelector("#btn");
 // getting the color span
 const color = document.querySelector(".color");
 

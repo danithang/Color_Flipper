@@ -7,8 +7,10 @@ btn.addEventListener("click", function() {
     let hexColor = "#";
     // adding a loop to loop through the array and add 6 values for different colors for example #F343ff (6 random values)
     for (let i = 0; i < 6; i++) {
+        // adding hexColor which is the # to the hex variable and get randomNumber function  
         hexColor += hex[getRandomNumber()];
     }
+// writing the content of the hexColor which is the # and changing the background according to the hex and randome number established in event listener
 color.textContent = hexColor;
 document.body.style.backgroundColor = hexColor;
 });
